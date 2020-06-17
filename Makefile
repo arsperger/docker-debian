@@ -1,7 +1,7 @@
 all: build
 
 build:
-	@docker build --tag=eurolan/debian:jessie .
+	@docker build --tag=arsperger/debian:stretch .
 
 release: build
-	@docker build --tag=eurolan/debian:$(shell cat VERSION) .
+	@docker build --tag=arpserger/debian:$(shell cat VERSION) .

@@ -1,8 +1,8 @@
 # About
 
-Dockerfile to build a debian:jessie baseimage with a couple of extra packages.
+Dockerfile to build a debian:stretch baseimage with a couple of extra packages.
 
-The image is built on top of the `debian:jessie` image and installs the following extra packages:
+The image is built on top of the `debian:stretch` image and installs the following extra packages:
 
 - `vim.tiny`
 - `wget`

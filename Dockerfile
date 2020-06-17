@@ -1,5 +1,5 @@
-FROM debian:jessie
-MAINTAINER arsen.semionov@gmail.com
+FROM debian:stretch
+LABEL MAINTAINER="arsen.semionov@gmail.com"
 
 RUN echo 'APT::Install-Recommends 0;' >> /etc/apt/apt.conf.d/01norecommends \
  && echo 'APT::Install-Suggests 0;' >> /etc/apt/apt.conf.d/01norecommends \
